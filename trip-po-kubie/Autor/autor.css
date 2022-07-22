@@ -90,12 +90,25 @@ ol > li > ul >li:hover
 	cursor:pointer;
 }
 
-a:link
+.main a
 {
+	font-weight:800;
+	font-size:26px;
+	text-decoration:underline;
+}
 
+.socials a:link
+{
 	text-decoration:none;
 	color:#111111;
 }
+
+#menu a:link
+{
+	text-decoration:none;
+	color:#111111;
+}
+
 a:visited
 {
 
