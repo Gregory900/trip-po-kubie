@@ -178,6 +178,10 @@ a:visited
 	margin-top:70px;
 	border-top:2px dashed #5c9eff;
 }
+.box
+{
+	border:5px solid red;
+}
 
 h2
 {
@@ -194,6 +198,24 @@ h2
 	background-image: linear-gradient(to right, #5c9eff, #73abff, #88b7ff, #9dc4ff, #b1d0ff);
 	background-repeat: no-repeat;
 	background-size:100% 0.09em;
+	background-position:0 90%;
+}
+
+.h2
+{
+	margin-left: 50%;
+	transform: translateX(-50%);
+	color:#333333;
+	padding-bottom:15px;
+	transition: 2s;
+}
+
+.h2out
+{
+	margin-left: 50%;
+	transform: translateX(-250%);
+	color:#333333;
+	padding-bottom:15px;
 	background-position:0 90%;
 }
 
